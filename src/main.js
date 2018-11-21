@@ -13,7 +13,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(BootstrapVue)
 
-Vue.use(VueNativeSock, 'ws://127.0.0.1:8080/ws', { format: 'json' })
+Vue.use(VueNativeSock, 'ws://app.reptum.io/ws', { format: 'json' })
 
 /*
 var vm = new Vue({
